@@ -1,0 +1,12 @@
+{
+  "name": "coolwin",
+  "version": "1.0.0",
+  "description": "CoolWin color prediction game backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
