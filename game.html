@@ -12,6 +12,14 @@
     <button class="color-btn" style="background:green;">Green</button>
     <button class="color-btn" style="background:purple;">Violet</button>
     <div id="result"></div>
-    <script src="game.js"></script>
+
+    <script>
+        let timerDiv = document.getElementById('timer');
+        let counter = 60;
+        setInterval(() => {
+            timerDiv.innerText = counter + "s";
+            counter--;
+        }, 1000);
+    </script>
 </body>
 </html>
